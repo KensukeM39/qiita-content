@@ -1,0 +1,21 @@
+# Qiita CLI関連
+qiita.config.json
+credentials.json
+.qiita-cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.env
+*.log
+
+# VSCodeや一時ファイル
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

@@ -85,7 +85,7 @@ https://vault.bitwarden.com/#/login
 
 2回目は、マスターキーと一緒にマスターパスワードを KDFs に入れることで、マスターパスワードハッシュを生成しています。
 　
-![image.png](https://res.cloudinary.com/bw-com/image/upload/f_auto/v1/ctf/7rncvj1f8mw7/1rLMJoZFka4Per5lIyuMv9/33bc3f62358591bfe4cb86d3c3375535/whitepaper-acctcreate.png?_a=DAJAUVWIZAAB, "パスワードのハッシュ化、キー導出、および暗号化プロセスの概要")
+![bitwarden-encryption-process.png](https://res.cloudinary.com/bw-com/image/upload/f_auto/v1/ctf/7rncvj1f8mw7/1rLMJoZFka4Per5lIyuMv9/33bc3f62358591bfe4cb86d3c3375535/whitepaper-acctcreate.png?_a=DAJAUVWIZAAB, "パスワードのハッシュ化、キー導出、および暗号化プロセスの概要")
 <font color="gray">引用：[Bitwarden セキュリティホワイトペーパ](https://bitwarden.com/ja-jp/help/bitwarden-security-white-paper/#:~:text=%E4%BB%A5%E4%B8%8B%E3%81%AB%E3%80%81%E3%83%91%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%89%E3%81%AE%E3%83%8F%E3%83%83%E3%82%B7%E3%83%A5%E5%8C%96%E3%80%81%E3%82%AD%E3%83%BC%E5%B0%8E%E5%87%BA%E3%80%81%E3%81%8A%E3%82%88%E3%81%B3%E6%9A%97%E5%8F%B7%E5%8C%96%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%AE%E6%A6%82%E8%A6%81%E3%82%92%E7%A4%BA%E3%81%97%E3%81%BE%E3%81%99%E3%80%82)</font>
 
 　

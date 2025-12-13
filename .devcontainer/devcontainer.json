@@ -1,0 +1,23 @@
+{
+    "name": "Qiita Writing Env",
+    // 公式の軽量なNode.jsイメージを使用
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  
+    // Qiita CLIのプレビュー用ポート(通常8888)を開放
+    "forwardPorts": [8888],
+  
+    // コンテナ作成後に実行するコマンド
+    // 初回起動時にqiita-cliをインストールします
+    "postCreateCommand": "npm install -g @qiita/qiita-cli --save-dev && npm install",
+  
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": [
+          // 執筆に便利な拡張機能を自動で入れる
+          "yzhang.markdown-all-in-one",
+          "bierner.markdown-preview-github-styles"
+        ]
+      }
+    }
+  }
